@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 de jan. de 2024, 16:07:22
+    Author     : lucas
+*/
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho h4 */
+h4 {
+    text-align: center;
+}
+
+/* Estilos para a tabela */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para as linhas listradas */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para os botões de editar e excluir */
+.botaoeditar, .botaoexcluir {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+
+.botaoeditar {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.botaoexcluir {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.box-btn-editar .box-excluir {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para o pop-up de exclusão */
+.msg-popup2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+}
+
+.msg-popup2 button {
+    margin: 5px;
+}

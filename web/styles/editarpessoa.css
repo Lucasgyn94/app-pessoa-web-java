@@ -1,0 +1,60 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o contêiner */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos para o formulário */
+form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para os campos do formulário */
+fieldset {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os botões de Alterar e Cancelar */
+input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Estilos para tornar os campos de entrada responsivos */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para alinhar os botões horizontalmente */
+.row {
+    display: flex;
+    justify-content: space-between;
+}

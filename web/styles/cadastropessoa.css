@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 de jan. de 2024, 10:00:39
+    Author     : lucas
+*/
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-nome-email-pessoa {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+	align-items: start;
+	justify-content: center;
+}
+
+#nomepessoa {
+  width: 560px;
+}
+
+#email{
+    width: 560px;
+}
+
+.box-btn-cadastrar-cancelar {
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+
+.box-btn-cadastrar-cancelar input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
